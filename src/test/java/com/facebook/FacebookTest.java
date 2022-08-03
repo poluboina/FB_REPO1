@@ -22,6 +22,7 @@ public class FacebookTest {
 		System.out.println(str);
 		System.out.println(str1);
 		driver.manage().window().maximize();
+		System.out.println("krishna");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
