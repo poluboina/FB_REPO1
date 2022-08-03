@@ -16,8 +16,11 @@ public class FacebookTest {
 		driver=new ChromeDriver();
 		driver.get("https://www.facebook.com");
 		String str = driver.getCurrentUrl();
-		
+		System.out.println("saikrishna");
+		String str1 = driver.getTitle();	
+
 		System.out.println(str);
+		System.out.println(str1);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
